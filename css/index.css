@@ -1,0 +1,71 @@
+/*style of section*/
+#new{
+	width: 100%;
+	background-image: url(../img/bg12.jpg);
+}
+/*style of div h1*/
+.mrgn{
+	margin-top: 120px;
+}
+/*hr style*/
+hr{
+	width: 20px;
+	border: 2px solid white;
+}
+/*style of my class*/
+.roy{
+	width: 90%;
+	background-color: transparent;
+	color: white;
+	border: 2px solid white;
+}
+/*styles of media curies*/
+@media(min-width: 576px) and (max-width: 767px){
+	.roy{
+		background-color: black;
+		color: green;
+		border: 2px solid green;	
+		margin: 10px;
+	}
+	h1{
+		color: green;
+	}
+	hr{
+		border: 2px solid green;
+	}
+	p{
+		color: green;
+	}
+}
+@media(min-width: 768px) and (max-width: 990px){
+	.roy{
+		background-color: lightblue;
+		color: red;
+		border: 2px solid red;
+	}
+	h1{
+		color: red;
+	}
+	hr{
+		border: 2px solid red;
+	}
+	p{
+		color: red;
+	}
+}
+@media(min-width: 200px) and (max-width: 575px){
+	.roy{
+		color: yellow;
+		border: 2px solid yellow;
+		margin: 10px;
+	}
+	h1{
+		color: yellow;
+	}
+	hr{
+		border: 2px solid yellow;
+	}
+	p{
+		color: yellow;
+	}
+}
